@@ -2,6 +2,7 @@ package com.frank.mipymes
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.lastchance.R
 
 class MainActivity : AppCompatActivity() {
 
