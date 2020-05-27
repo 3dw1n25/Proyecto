@@ -11,5 +11,6 @@
     <color name="facebookColor">#0048FB</color>
     <color name="googleColor">#FF6E00</color>
     <color name="general_blue">#29527E</color>
+    <color name="red">#F00404</color>
 
 </resources>
