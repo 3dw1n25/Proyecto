@@ -24,8 +24,11 @@
         android:id="@+id/button"
         android:layout_width="277dp"
         android:layout_height="69dp"
-        android:background="@color/colorPrimary"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_agenda"
+        android:paddingRight="16dp"
         android:text="Pagos"
+        android:textColor="@color/bacground"
         tools:layout_editor_absoluteX="65dp"
         tools:layout_editor_absoluteY="248dp" />
 
@@ -33,8 +36,11 @@
         android:id="@+id/button5"
         android:layout_width="277dp"
         android:layout_height="69dp"
-        android:background="@color/colorPrimaryDark"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_factura"
+        android:paddingRight="16dp"
         android:text="Factura"
+        android:textColor="@color/bacground"
         tools:layout_editor_absoluteX="69dp"
         tools:layout_editor_absoluteY="394dp" />
 

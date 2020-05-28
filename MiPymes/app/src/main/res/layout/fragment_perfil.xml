@@ -22,7 +22,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:drawableRight="@drawable/ic_editar"
+        android:paddingRight="16dp"/>
 
     <Button
         android:id="@+id/create_finish_button6"
@@ -37,7 +39,9 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        android:drawableRight="@drawable/ic_out"
+        android:paddingRight="16dp"/>
 
     <TextView
         android:id="@+id/textView3"
@@ -105,6 +109,8 @@
         android:layout_marginTop="16dp"
         android:layout_marginEnd="32dp"
         android:background="@color/general_blue"
+        android:drawableRight="@drawable/ic_pass"
+        android:paddingRight="14dp"
         android:text="cambiar contraseña"
         android:textColor="@color/bacground"
         app:layout_constraintEnd_toEndOf="parent"
