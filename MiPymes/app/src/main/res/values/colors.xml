@@ -12,5 +12,6 @@
     <color name="googleColor">#FF6E00</color>
     <color name="general_blue">#29527E</color>
     <color name="red">#F00404</color>
+    <color name="item_back_color">#A8A8AC</color>
 
 </resources>

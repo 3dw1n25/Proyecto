@@ -6,7 +6,13 @@
     </shared>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="180e4281-672f-4027-ab18-37763f98c625" name="Default Changelist" comment="" />
+    <list default="true" id="180e4281-672f-4027-ab18-37763f98c625" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/drawable/ic_send.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_inicio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_inicio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/res/values/colors.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/values/colors.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +24,7 @@
   </component>
   <component name="ProjectId" id="1cNLM3pqETqNuFRLdx2aK99sdfW" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/MiPymes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
