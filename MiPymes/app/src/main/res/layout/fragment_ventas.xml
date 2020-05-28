@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/darkgray"
     android:orientation="vertical"
     tools:context=".fragment_ventas">
 
@@ -18,6 +19,24 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/main_menu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:background="@color/colorPrimary"
+        android:text="Pagos"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="248dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:background="@color/colorPrimaryDark"
+        android:text="Factura"
+        tools:layout_editor_absoluteX="69dp"
+        tools:layout_editor_absoluteY="394dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
