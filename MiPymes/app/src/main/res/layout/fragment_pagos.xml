@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".fragment_inventario">
+    android:background="@color/darkgray"
+    tools:context=".fragment_pagos">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/button_navigation"
@@ -23,15 +24,13 @@
         android:id="@+id/recordatorio_bar"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="24dp"
-        android:layout_marginEnd="8dp"
         android:background="@color/item_back_color"
         android:minHeight="?attr/actionBarSize"
         android:theme="?attr/actionBarTheme"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageButton"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteY="24dp" />
 
     <EditText
         android:id="@+id/recordatorio_input"
@@ -40,7 +39,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="80dp"
         android:ems="10"
-        android:hint=" Agregar un Producto"
+        android:hint=" Agregar un Pago"
         android:inputType="textPersonName"
         app:layout_constraintBottom_toBottomOf="@+id/recordatorio_bar"
         app:layout_constraintEnd_toEndOf="@+id/recordatorio_bar"
@@ -56,7 +55,6 @@
         app:layout_constraintEnd_toEndOf="@+id/recordatorio_bar"
         app:layout_constraintStart_toEndOf="@+id/recordatorio_input"
         app:layout_constraintTop_toTopOf="@+id/recordatorio_bar" />
-
 
     <ScrollView
         android:layout_width="match_parent"
