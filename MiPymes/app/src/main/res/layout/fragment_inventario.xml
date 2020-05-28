@@ -19,4 +19,100 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/main_menu" />
 
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/recordatorio_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="8dp"
+        android:background="@color/item_back_color"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/recordatorio_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="80dp"
+        android:ems="10"
+        android:hint=" Agregar un Producto"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/recordatorio_bar"
+        app:layout_constraintEnd_toEndOf="@+id/recordatorio_bar"
+        app:layout_constraintStart_toStartOf="@+id/recordatorio_bar"
+        app:layout_constraintTop_toTopOf="@+id/recordatorio_bar" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recordatorio_bar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar5"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/bacground"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar4"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/item_back_color"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar3"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/bacground"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar2"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/item_back_color"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="140dp"
+                android:background="@color/bacground"
+                android:minHeight="?attr/actionBarSize"
+                android:theme="?attr/actionBarTheme" />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/ic_add_circle"
+        app:layout_constraintBottom_toBottomOf="@+id/recordatorio_bar"
+        app:layout_constraintEnd_toEndOf="@+id/recordatorio_bar"
+        app:layout_constraintStart_toEndOf="@+id/recordatorio_input"
+        app:layout_constraintTop_toTopOf="@+id/recordatorio_bar" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
