@@ -9,7 +9,9 @@
     <list default="true" id="180e4281-672f-4027-ab18-37763f98c625" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inicio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_ventas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_ventas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_inicio.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_inicio.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_ventas.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/layout/fragment_ventas.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

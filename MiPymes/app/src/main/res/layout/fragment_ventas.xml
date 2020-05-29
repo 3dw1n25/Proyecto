@@ -21,7 +21,7 @@
         app:menu="@menu/main_menu" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonPagos"
         android:layout_width="277dp"
         android:layout_height="69dp"
         android:background="@color/colorAccent"
@@ -33,7 +33,7 @@
         tools:layout_editor_absoluteY="248dp" />
 
     <Button
-        android:id="@+id/button5"
+        android:id="@+id/buttonFactura"
         android:layout_width="277dp"
         android:layout_height="69dp"
         android:background="@color/colorAccent"

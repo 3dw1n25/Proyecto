@@ -20,12 +20,21 @@ class fragment_ventas : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentGameBinding>(
                 inflater, R.layout.fragment_game, container, false)
 
-                binding.playButton.setOnClickListener { view: View ->
+                binding.buttonFactura.setOnClickListener { view: View ->
             view.findNavController().
-            navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+            navigate(fragment_ventasDirections.action_fragment_ventas_to_fragment_factura)
 
 
     }
+
+
+        binding.buttonPagos.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_ventasDirections.action_fragment_ventas_to_fragment_pagos)
+
+
+        }
+
 
                 return binding.root
     }
