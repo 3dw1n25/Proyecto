@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".fragment_ventas">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgray"
+    android:orientation="vertical">
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/button_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        app:itemBackground="@color/general_blue"
+        app:itemIconTint="@color/bacground"
+        app:itemTextColor="@color/bacground"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:menu="@menu/main_menu" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="120dp"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_agenda"
+        android:paddingRight="16dp"
+        android:text="Pagos"
+        android:textColor="@color/bacground"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="277dp"
+        android:layout_height="69dp"
+        android:layout_marginBottom="32dp"
+        android:background="@color/colorAccent"
+        android:drawableRight="@drawable/ic_factura"
+        android:paddingRight="16dp"
+        android:text="Factura"
+        android:textColor="@color/bacground"
+        app:layout_constraintBottom_toTopOf="@+id/button_navigation"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

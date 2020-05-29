@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/fragment_login">
+
+    <fragment
+        android:id="@+id/fragment_login"
+        android:name="com.frank.mipymes.fragment_login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_inicio"
+            app:destination="@id/fragment_inicio" />
+        <action
+            android:id="@+id/action_fragment_login_to_fragment_create_user"
+            app:destination="@id/fragment_create_user" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_create_user"
+        android:name="com.frank.mipymes.fragment_create_user"
+        android:label="fragment_create_user"
+        tools:layout="@layout/fragment_create_user">
+        <action
+            android:id="@+id/action_fragment_create_user_to_fragment_inicio"
+            app:destination="@id/fragment_inicio" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_inicio"
+        android:name="com.frank.mipymes.fragment_inicio"
+        android:label="fragment_inicio"
+        tools:layout="@layout/fragment_inicio">
+        <action
+            android:id="@+id/action_fragment_inicio_to_fragment_inventario"
+            app:destination="@id/fragment_inventario" />
+        <action
+            android:id="@+id/action_fragment_inicio_to_fragment_opciones"
+            app:destination="@id/fragment_opciones" />
+        <action
+            android:id="@+id/action_fragment_inicio_to_fragment_perfil2"
+            app:destination="@id/fragment_perfil" />
+        <action
+            android:id="@+id/action_fragment_inicio_to_fragment_ventas"
+            app:destination="@id/fragment_ventas" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_ventas"
+        android:name="com.frank.mipymes.fragment_ventas"
+        android:label="fragment_ventas"
+        tools:layout="@layout/fragment_ventas">
+        <action
+            android:id="@+id/action_fragment_ventas_to_fragment_factura"
+            app:destination="@id/fragment_factura" />
+        <action
+            android:id="@+id/action_fragment_ventas_to_fragment_pagos"
+            app:destination="@id/fragment_pagos" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragment_perfil"
+        android:name="com.frank.mipymes.fragment_perfil"
+        android:label="fragment_perfil"
+        tools:layout="@layout/fragment_perfil"/>
+    <fragment
+        android:id="@+id/fragment_factura"
+        android:name="com.frank.mipymes.fragment_factura"
+        android:label="fragment_factura"
+        tools:layout="@layout/fragment_factura"/>
+    <fragment
+        android:id="@+id/fragment_inventario"
+        android:name="com.frank.mipymes.fragment_inventario"
+        android:label="fragment_inventario"
+        tools:layout="@layout/fragment_inventario"/>
+    <fragment
+        android:id="@+id/fragment_opciones"
+        android:name="com.frank.mipymes.fragment_opciones"
+        android:label="fragment_opciones"
+        tools:layout="@layout/fragment_opciones"/>
+    <fragment
+        android:id="@+id/fragment_pagos"
+        android:name="com.frank.mipymes.fragment_pagos"
+        android:label="fragment_pagos"
+        tools:layout="@layout/fragment_pagos"/>
+</navigation>
