@@ -15,8 +15,15 @@ class fragment_create_user : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_create_user, container, false)
-    }
 
+        // Inflate the layout for this fragment
+        val binding = DataBindingUtil.inflate<FragmentGameBinding>(
+                inflater, R.layout.fragment_game, container, false)
+
+                binding..setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+
+        }
+                return binding.root
 }

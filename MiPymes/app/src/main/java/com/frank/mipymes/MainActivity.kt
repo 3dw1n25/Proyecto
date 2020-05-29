@@ -15,7 +15,17 @@ class MainActivity : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+
+
+
+        val binding = DataBindingUtil.setContentView<ActivityMainBinding>( this,
+                R.layout.activity_main)
+
+        drawerLayout = binding.drawerLayout
+
+        val navController = this.findNavController(R.id.myNavHostFragment)
+
+
     }
     val button = view.findViewById<Button>(R.id.navigate_destination_button)
     button?.setOnClickListener {
@@ -32,13 +42,6 @@ class MainActivity : AppCompatActivity() {
         } }
 
 
-    view.findViewById<Button>(R.id.navigate_destination_button)?.setOnClickListener {
-        findNavController().navigate(R.id.flow_step_one_dest, null, options)
-    }
-
-    view.findViewById<Button>(R.id.navigate_action_button)?.setOnClickListener(
-    Navigation.createNavigateOnClickListener(R.id.next_action, null)
-    )
 
 
 

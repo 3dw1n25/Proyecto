@@ -17,7 +17,16 @@ class fragment_inventario : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_inventario, container, false)
-    }
 
+
+        // Inflate the layout for this fragment
+        val binding = DataBindingUtil.inflate<FragmentGameBinding>(
+                inflater, R.layout.fragment_game, container, false
+
+                binding.playButton.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+
+        }
+                return binding.root
 }

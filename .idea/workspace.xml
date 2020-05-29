@@ -7,14 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="180e4281-672f-4027-ab18-37763f98c625" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/fade_in.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/fade_out.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/slide_in_left.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/slide_in_right.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/slide_out_left.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/anim/slide_out_right.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/MainActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/MainActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_create_user.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_create_user.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_factura.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_factura.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inicio.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inicio.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inventario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_inventario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_login.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_login.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_opciones.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_opciones.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_pagos.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_pagos.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_perfil.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_perfil.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_ventas.kt" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/java/com/frank/mipymes/fragment_ventas.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MiPymes/app/src/main/res/navigation/navigation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/MiPymes/app/src/main/res/navigation/navigation.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -28,7 +31,7 @@
   </component>
   <component name="ProjectId" id="1cNLM3pqETqNuFRLdx2aK99sdfW" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MiPymes/app/src/main/res" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />

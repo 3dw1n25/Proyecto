@@ -16,7 +16,29 @@ class fragment_login : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_login, container, false)
-    }
 
+
+
+        // Inflate the layout for this fragment
+        val binding = DataBindingUtil.inflate<FragmentGameBinding>(
+                inflater, R.layout.fragment_game, container, false)
+
+
+                binding.login_button.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_loginDirections.action_fragment_login_to_fragment_inicio)
+
+        }
+
+
+        binding.create_button.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_loginDirections.action_fragment_login_to_fragment_create_user)
+
+        }
+
+
+
+
+                return binding.root
 }
