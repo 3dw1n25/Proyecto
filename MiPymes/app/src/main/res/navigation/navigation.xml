@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/navigation"
+
+    xmlns:tools="http://schemas.android.com/tools"
     app:startDestination="@id/fragment_login">
+
 
     <fragment
         android:id="@+id/fragment_login"
         android:name="com.frank.mipymes.fragment_login"
         android:label="fragment_login" >
         <action
-            android:id="@+id/action_fragment_login_to_fragment_inicio"
+            android:id="@+id/next_action"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:destination="@id/fragment_inicio" />
+
+
+
         <action
-            android:id="@+id/action_fragment_login_to_fragment_create_user"
+            android:id="@+id/next_action"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:destination="@id/fragment_create_user" />
     </fragment>
     <fragment
@@ -23,16 +37,20 @@
         android:name="com.frank.mipymes.fragment_inicio"
         android:label="fragment_inicio" >
         <action
-            android:id="@+id/action_fragment_inicio_to_fragment_inventario"
+            android:id="@+id/next_action"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left"
+            app:popEnterAnim="@anim/slide_in_left"
+            app:popExitAnim="@anim/slide_out_right"
             app:destination="@id/fragment_inventario" />
         <action
-            android:id="@+id/action_fragment_inicio_to_fragment_opciones"
+            android:id="@+id/next_action"
             app:destination="@id/fragment_opciones" />
         <action
-            android:id="@+id/action_fragment_inicio_to_fragment_perfil2"
+            android:id="@+id/next_action"
             app:destination="@id/fragment_perfil" />
         <action
-            android:id="@+id/action_fragment_inicio_to_fragment_ventas"
+            android:id="@+id/next_action"
             app:destination="@id/fragment_ventas" />
     </fragment>
     <fragment
@@ -40,10 +58,10 @@
         android:name="com.frank.mipymes.fragment_ventas"
         android:label="fragment_ventas" >
         <action
-            android:id="@+id/action_fragment_ventas_to_fragment_factura"
+            android:id="@+id/next_action"
             app:destination="@id/fragment_factura" />
         <action
-            android:id="@+id/action_fragment_ventas_to_fragment_pagos"
+            android:id="@+id/next_action"
             app:destination="@id/fragment_pagos" />
     </fragment>
     <fragment
