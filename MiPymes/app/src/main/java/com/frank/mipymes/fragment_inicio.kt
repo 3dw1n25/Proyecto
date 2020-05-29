@@ -24,10 +24,31 @@ class fragment_inicio : Fragment() {
         val binding = DataBindingUtil.inflate<FragmentGameBinding>(
                 inflater, R.layout.fragment_game, container, false)
 
-                binding.playButton.setOnClickListener { view: View ->
+                binding.Perfil.setOnClickListener { view: View ->
             view.findNavController().
-            navigate(TitleFragmentDirections.actionTitleFragmentToGameFragment())
+            navigate(fragment_inicioDirections.action_fragment_inicio_to_fragment_perfil2)
 
         }
+
+        binding.Ventas.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_inicioDirections.action_fragment_inicio_to_fragment_ventas)
+
+        }
+
+
+        binding.Inventario.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_inicioDirections.action_fragment_inicio_to_fragment_inventario)
+
+        }
+
+        binding.Opciones.setOnClickListener { view: View ->
+            view.findNavController().
+            navigate(fragment_inicioDirections.action_fragment_inicio_to_fragment_opciones)
+
+        }
+
+
                 return binding.root
 }
